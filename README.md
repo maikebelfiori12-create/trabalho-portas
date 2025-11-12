@@ -7,3 +7,5 @@ São aonde geram os resultados, enviando já para operação final, ou emitindo 
 Assim que informados valores, o half-adder e o full-adder ficam encarregados de gerar a informação se há necessidade do uso do carry na operação, assim se o carry for usado algumas vezes, ele chegaram no limite permitido pelo circuito
 ## Halff-sub
 São duas entradas, que fazem o calculo no sistema de portas, gerando o resultado na saida.
+## Full-sub
+O circuito calcula a diferença entre dois bits, A e B (realizando a operação A - B), e indica se foi necessário "emprestar" (borrow) de um bit mais significativo (o que não acontece na prática com ele, mas ele sinaliza essa necessidade).
