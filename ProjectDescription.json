@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-07T20:08:24.784-03:00",
-  "LastSaveTime": "2025-11-04T21:41:52.672-03:00",
+  "LastSaveTime": "2025-11-11T21:01:34.117-03:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 0,
@@ -20,7 +20,9 @@
     "XOR",
     "XNOR",
     "halff-sub",
-    "full-sub"
+    "full-sub",
+    "3XNOR",
+    "half-subtractor"
   ],
   "StarredList":[
     {
@@ -41,6 +43,10 @@
     },
     {
       "Name":"full-sub",
+      "IsCollection":false
+    },
+    {
+      "Name":"3XNOR",
       "IsCollection":false
     }
   ],
