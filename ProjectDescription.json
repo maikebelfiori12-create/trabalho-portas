@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-07T20:08:24.784-03:00",
-  "LastSaveTime": "2025-11-04T21:41:52.672-03:00",
+  "LastSaveTime": "2025-11-18T21:03:05.905-03:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 0,
@@ -20,7 +20,10 @@
     "XOR",
     "XNOR",
     "halff-sub",
-    "full-sub"
+    "full-sub",
+    "full adder",
+    "half adder",
+    "4bit"
   ],
   "StarredList":[
     {
@@ -36,12 +39,16 @@
       "IsCollection":true
     },
     {
-      "Name":"halff-sub",
-      "IsCollection":false
+      "Name":"halff-sub e full-sub",
+      "IsCollection":true
     },
     {
-      "Name":"full-sub",
-      "IsCollection":false
+      "Name":"MERGE/SPLIT",
+      "IsCollection":true
+    },
+    {
+      "Name":"OTHER",
+      "IsCollection":true
     }
   ],
   "ChipCollections":[
@@ -57,7 +64,7 @@
     },
     {
       "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
-      "IsToggledOpen":false,
+      "IsToggledOpen":true,
       "Name":"MERGE/SPLIT"
     },
     {
@@ -76,7 +83,7 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER"],
+      "Chips":["BUZZER","full adder","half adder","4bit"],
       "IsToggledOpen":true,
       "Name":"OTHER"
     },
@@ -84,6 +91,16 @@
       "Chips":["Not","AND","NAND","OR","NOR","XOR","XNOR"],
       "IsToggledOpen":true,
       "Name":"BasicGates"
+    },
+    {
+      "Chips":["full-sub","halff-sub"],
+      "IsToggledOpen":true,
+      "Name":"halff-sub e full-sub"
+    },
+    {
+      "Chips":[],
+      "IsToggledOpen":false,
+      "Name":"MARGE/SPLIT"
     }
   ]
 }
