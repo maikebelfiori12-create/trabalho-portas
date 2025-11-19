@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-07T20:08:24.784-03:00",
-  "LastSaveTime": "2025-11-18T21:03:05.905-03:00",
+  "LastSaveTime": "2025-11-18T21:50:01.040-03:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 0,
@@ -23,7 +23,10 @@
     "full-sub",
     "full adder",
     "half adder",
-    "4bit"
+    "4bit",
+    "3and",
+    "4and",
+    "mux4x1"
   ],
   "StarredList":[
     {
@@ -49,6 +52,10 @@
     {
       "Name":"OTHER",
       "IsCollection":true
+    },
+    {
+      "Name":"mux4x1",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -83,7 +90,7 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER","full adder","half adder","4bit"],
+      "Chips":["BUZZER","3and","full adder","half adder","4bit","4and"],
       "IsToggledOpen":true,
       "Name":"OTHER"
     },
