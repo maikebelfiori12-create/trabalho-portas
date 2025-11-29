@@ -9,3 +9,5 @@ Assim que informados valores, o half-adder e o full-adder ficam encarregados de 
 São duas entradas, que fazem o calculo no sistema de portas, gerando o resultado na saida.
 ## Full-sub
 O circuito calcula a diferença entre dois bits, A e B (realizando a operação A - B), e indica se foi necessário "emprestar" (borrow) de um bit mais significativo (o que não acontece na prática com ele, mas ele sinaliza essa necessidade).
+## Portas que faltavam
+fiz todas as portas que não tinham, e executei o ultimo trabalho da ula 4 bit

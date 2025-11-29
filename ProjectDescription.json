@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-10-07T20:08:24.784-03:00",
-  "LastSaveTime": "2025-11-25T21:28:58.703-03:00",
+  "LastSaveTime": "2025-11-28T21:50:12.055-03:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 2,
   "Prefs_GridDisplayMode": 0,
@@ -28,7 +28,26 @@
     "4and",
     "mux4x1",
     "3mux",
-    "demux"
+    "demux",
+    "4bit-3and",
+    "4bit-2and",
+    "4BIT-AND",
+    "4or",
+    "4bit-4ror",
+    "4bit-xor",
+    "4bit-or",
+    "4bit-not",
+    "4bit-nor",
+    "2mux",
+    "DEMUX-2BIT",
+    "DEMUX4X1-4BIT",
+    "4x1 bit mux",
+    "4bit adder",
+    "4bit sub",
+    "4bit or",
+    "4bit nor",
+    "4bit xor",
+    "ula 4bit"
   ],
   "StarredList":[
     {
@@ -56,15 +75,91 @@
       "IsCollection":true
     },
     {
-      "Name":"mux4x1",
-      "IsCollection":false
-    },
-    {
       "Name":"3mux",
       "IsCollection":false
     },
     {
       "Name":"demux",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit-3and",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit-2and",
+      "IsCollection":false
+    },
+    {
+      "Name":"4BIT-AND",
+      "IsCollection":false
+    },
+    {
+      "Name":"4or",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit-4ror",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit-xor",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit-or",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit-not",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit-nor",
+      "IsCollection":false
+    },
+    {
+      "Name":"todos",
+      "IsCollection":true
+    },
+    {
+      "Name":"2mux",
+      "IsCollection":false
+    },
+    {
+      "Name":"DEMUX-2BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"DEMUX4X1-4BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"4x1 bit mux",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit adder",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit sub",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit or",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit nor",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit xor",
+      "IsCollection":false
+    },
+    {
+      "Name":"ula 4bit",
       "IsCollection":false
     }
   ],
@@ -75,13 +170,18 @@
       "Name":"BASIC"
     },
     {
+      "Chips":["BUZZER","3and","full adder","half adder","4bit","4and","mux4x1","3mux","4bit-2and","demux","4BIT-AND","4or","4bit-4ror","4bit-xor","4bit-or","4bit-not","4bit-nor"],
+      "IsToggledOpen":false,
+      "Name":"todos"
+    },
+    {
       "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
       "IsToggledOpen":false,
       "Name":"IN/OUT"
     },
     {
       "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"MERGE/SPLIT"
     },
     {
@@ -100,24 +200,29 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER","3and","full adder","half adder","4bit","4and"],
+      "Chips":["Not","AND","NAND","OR","NOR","XOR","XNOR"],
+      "IsToggledOpen":false,
+      "Name":"BasicGates"
+    },
+    {
+      "Chips":["2mux","DEMUX-2BIT","DEMUX4X1-4BIT","4x1 bit mux"],
       "IsToggledOpen":true,
       "Name":"OTHER"
     },
     {
-      "Chips":["Not","AND","NAND","OR","NOR","XOR","XNOR"],
-      "IsToggledOpen":true,
-      "Name":"BasicGates"
-    },
-    {
       "Chips":["full-sub","halff-sub"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"halff-sub e full-sub"
     },
     {
       "Chips":[],
-      "IsToggledOpen":false,
+      "IsToggledOpen":true,
       "Name":"MARGE/SPLIT"
+    },
+    {
+      "Chips":["4bit-3and"],
+      "IsToggledOpen":true,
+      "Name":"4bits"
     }
   ]
 }
